@@ -236,3 +236,24 @@ section h2{
     margin-bottom:25px;
     text-shadow:0 0 15px #00e5ff;
 }
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    z-index:99;
+    border:none;
+    outline:none;
+    background:#00e5ff;
+    color:white;
+    cursor:pointer;
+    padding:15px;
+    border-radius:50%;
+    font-size:20px;
+    box-shadow:0 0 15px #00e5ff;
+    transition:0.3s;
+}
+
+#topBtn:hover{
+    transform:scale(1.1);
+}
