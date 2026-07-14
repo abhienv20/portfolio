@@ -202,3 +202,27 @@ progress::-moz-progress-bar {
     transform:scale(1.08);
     box-shadow:0 0 50px rgba(0,229,255,0.9);
 }
+nav{
+    position:sticky;
+    top:0;
+    width:100%;
+    background:rgba(15,23,42,0.9);
+    backdrop-filter:blur(10px);
+    display:flex;
+    justify-content:center;
+    padding:15px 0;
+    z-index:1000;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#00e5ff;
+}
