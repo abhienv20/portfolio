@@ -257,3 +257,34 @@ section h2{
 #topBtn:hover{
     transform:scale(1.1);
 }
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin:40px 0;
+    flex-wrap:wrap;
+}
+
+.stat-box{
+    background:#1f1f1f;
+    padding:20px;
+    width:150px;
+    text-align:center;
+    border-radius:15px;
+    box-shadow:0 0 15px rgba(0,229,255,0.3);
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-5px);
+    box-shadow:0 0 25px rgba(0,229,255,0.7);
+}
+
+.stat-box h2{
+    color:#00e5ff;
+    margin:0;
+}
+
+.stat-box p{
+    color:#ddd;
+}
